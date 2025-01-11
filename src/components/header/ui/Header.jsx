@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { UseCookies } from "../../../shared/Usecookie";
+import { UseCookies } from "../../../shared/UseCookie";
 import { Link } from "react-router";
 import age from "../../../assets/header/age.png";
 import logo from "../../../assets/header/ichigo.png";
