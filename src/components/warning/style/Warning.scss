@@ -1,0 +1,41 @@
+.warning {
+  background: rgb(153, 51, 0); 
+  background: linear-gradient(
+    0deg, 
+    rgba(153, 51, 0, 1) 0%,      
+    rgba(204, 85, 0, 1) 20%,    
+    rgba(255, 102, 0, 1) 50%,    
+    rgba(255, 140, 0, 1) 80%,    
+    rgba(255, 178, 102, 1) 100%  
+  );
+  
+  
+  font-family: "Poppins", sans-serif;
+
+  padding: 36px 0px;
+  color: #fff;
+  h2 {
+    font-size: 34px;
+  }
+  img {
+    width: 200px;
+  }
+  p {
+    font-family: "Source Sans 3", serif;
+    font-weight: 400;
+  }
+  .bold {
+    font-weight: bold;
+  }
+}
+
+@media (max-width:1400px){
+  .warning{
+    h2{
+      font-size: 24px;
+    }
+    p{
+      font-size:14px;
+    }
+  }
+}

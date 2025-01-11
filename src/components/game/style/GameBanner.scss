@@ -1,0 +1,59 @@
+.game__banner {
+  background-image: url("../../../assets/bgWin.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 80px;
+  &__wrapper {
+    color: #fff;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+  h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+  }
+  p {
+    font-family: "Source Sans 3", serif;
+    font-weight: 400;
+  }
+  a {
+    padding-top: 10px;
+    margin: 0 auto;
+    text-decoration: none;
+    border: none;
+    width:50%;
+    height: 45px;
+    font-family: "Source Sans 3", serif;
+    font-size: 21px;
+    border-radius: 4px;
+    color: #fff;
+    background: rgb(255, 140, 0); 
+    background: linear-gradient(
+      0deg, 
+      rgba(255, 140, 0, 1) 10%, 
+      rgba(255, 102, 0, 1) 40%, 
+      rgba(204, 85, 0, 1) 70%,
+      rgba(153, 51, 0, 1) 100% 
+    );
+  }
+}
+
+
+@media (max-width:1200px){
+      .game__banner{
+        &__wrapper{
+            padding-top:60px;
+            h3{
+              font-size:24px;
+            }
+            p{
+              font-size:14px;
+            }
+        }
+      }
+}
