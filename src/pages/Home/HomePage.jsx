@@ -1,4 +1,4 @@
-import { UseCookies } from "../../shared/Usecookie";
+import { UseCookies } from "../../shared/UseCookie";
 import { Footer } from "../../components/footer";
 import { GameBanner } from "../../components/game";
 import { GameCard } from "../../components/game";
